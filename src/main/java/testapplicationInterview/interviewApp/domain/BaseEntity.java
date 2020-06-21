@@ -23,7 +23,6 @@ public class BaseEntity {
     @LastModifiedDate
     private Date updated;
 
-    @Enumerated(EnumType.STRING)
-    private Status status;
+
 
 }

@@ -18,6 +18,8 @@ public class User extends BaseEntity{
     private String email;
     private String password;
     private String username;
+    @Enumerated(EnumType.STRING)
+    private Status status;
 
 
     @ManyToMany(fetch = FetchType.EAGER)

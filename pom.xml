@@ -17,6 +17,7 @@
 
 	<properties>
 		<java.version>14</java.version>
+		<jsonwebtoken.version>0.8.0</jsonwebtoken.version>
 	</properties>
 
 	<dependencies>
@@ -36,7 +37,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>${jsonwebtoken.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
